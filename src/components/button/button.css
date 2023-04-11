@@ -1,0 +1,29 @@
+.cash-btn {
+    width: 315px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    background: #FFFFFF;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    color: #262626;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.down-button {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* text-align: center; */
+    letter-spacing: -0.3px;
+    width: 315px;
+    color: #262626;
+    background: #EDF2F7;
+    border-radius: 12px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
