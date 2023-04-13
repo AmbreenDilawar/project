@@ -22,13 +22,14 @@ const Home = () => {
                 <div className="upper-btns">
                     <button className='cash-btn'>Cash</button>
                     <Button text={'Credit card'} />
+                    <button className='down-button last'>eWallet/ <br /> Virtual bank</button>
+                    <button className='hide'></button>
                 </div>
-                <button className='down-button last'>eWallet/ <br /> Virtual bank</button>
 
                 <div className="check-contt">
                     <input type="checkbox" id='check' />
-                    <label htmlFor="check">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                         &nbsp;<a href="/">do eiusmod</a>
+                    <label htmlFor="check">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        &nbsp;<a href="/">do eiusmod</a>
                     </label>
                 </div>
             </div>

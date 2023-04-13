@@ -39,3 +39,41 @@
 .input input:focus{
     outline: none;
 }
+
+
+
+@media(max-width:650px){
+    .input label {
+        font-size: 25px;
+    
+    }
+
+    .input input {
+        font-size: 25px;
+        padding: 20px 25px;
+    }
+    
+    .input input::placeholder {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:500px){
+    .input label {
+        font-size: 20px;
+    
+    }
+
+    .input input {
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+    
+    .input input::placeholder {
+        font-size: 20px;
+    }
+    .input {
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+}
